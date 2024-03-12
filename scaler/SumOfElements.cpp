@@ -1,0 +1,13 @@
+#include <bits/stdc++.h> 
+
+using namespace std;
+int main(){
+    int a[5] ={4,1,7,5,10};
+    int sum=0;
+    for(int i=0; i<5;i++)
+    {
+        sum += a[i];
+    }
+    cout<<"The sum of the array elements = "<< sum << endl;
+    return 0;
+}

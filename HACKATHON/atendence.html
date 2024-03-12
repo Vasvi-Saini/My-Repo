@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attendance Management System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    #attendanceButton {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="quantum.png" width="238">
+    <h1>Student Attendance</h1>
+    <p>Click the button to mark attendance for a student:</p>
+  </div>
+  <div>
+    <table border="3px" align="center">
+      <tr>
+        <th>S.NO</th>
+        <th>STUDENT NAME</th>
+        <th>STUDENT ID</th>
+        <th>ATTENDANCE</th>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td>Vasvi Saini</td>
+        <td>201</td>
+        <td><label><input type="checkbox"></label>Present</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>John Roy</td>
+        <td>202</td>
+        <td><label><input type="checkbox"></label>Present</td>
+      </tr>     
+      <tr>
+        <td>3.</td>
+        <td>Prince Sharma</td>
+        <td>203</td>
+        <td><label><input type="checkbox"></label>Present</td>
+      </tr>  
+      <tr>
+        <td>4.</td>
+        <td>Paras Garg</td>
+        <td>204</td>
+        <td><label><input type="checkbox"></label>Present</td>
+      </tr>  
+      <tr>
+        <td>5.</td>
+        <td>Nikhil Sharma</td>
+        <td>205</td>
+        <td><label><input type="checkbox"></label>Present</td>
+      </tr>  
+      <tr>
+        <td>6.</td>
+        <td>Anishk Verma</td>
+        <td>206</td>
+        <td><label><input type="checkbox"></label>Present</td>
+      </tr>  
+      <tr>
+        <td>7.</td>
+        <td>Sanya Kashyap</td>
+        <td>207</td>
+        <td><label><input type="checkbox"></label>Present</td>
+      </tr>  
+      <tr>
+        <td>8.</td>
+        <td>Tushar Dixit</td>
+        <td>208</td>
+        <td><label><input type="checkbox"></label>Present</td>
+      </tr>  
+      <tr>
+        <td>9.</td>
+        <td>Arshi Tayal</td>
+        <td>209</td>
+        <td><label><input type="checkbox"></label>Present</td>
+      </tr>  
+      <tr>
+        <td>10.</td>
+        <td>Mansi Sharma</td>
+        <td>210</td>
+        <td><label><input type="checkbox"></label>Present</td>
+      </tr>
+  </table>
+</div>
+
+  <div class="container">
+  <button id="attendanceButton">Submit Attendance</button>
+</div>
+
+
+  <script>
+    
+    const attendanceButton = document.getElementById('attendanceButton');
+
+    attendanceButton.addEventListener('click', function () {
+      
+      attendanceButton.textContent = 'Attendance Submitted!!';
+      attendanceButton.disabled = true;  
+    })
+  </script>
+</body>
+</html>
