@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 5vh;
+}
+.logo{
+    display: flex;
+}
+ul{
+   display: flex;
+   gap: 25px;
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+.icon{
+    display: flex;
+}
+.logo:hover{
+    scale: 1.2;
+    transition-duration: 200ms;
+}
+li:hover{
+    scale: 1.1;
+    transition-duration: 200ms;
+}
+.icon:hover{
+    scale : 1.2;
+    transition-duration: 200ms;
+}
+.main{
+    padding: 50px;
+}
+.foot{
+    margin-top: 40.5%;
+    text-align: center;
+    background-color: aqua;
+    height: 25px;
+    justify-content: center;
+    justify-items: center;
+    padding: 0%;
+    position: 
+}
+
+

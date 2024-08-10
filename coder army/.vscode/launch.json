@@ -1,12 +1,6 @@
 {
     "configurations": [
-        {
-            "type": "java",
-            "name": "rough",
-            "request": "launch",
-            "mainClass": "rough",
-            "projectName": "programming_ae7dc4c0"
-        },
+        
         {
             "name": "C/C++: gcc.exe build and debug active file",
             "type": "cppdbg",
